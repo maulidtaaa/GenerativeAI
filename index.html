@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Modul pembelajaran interaktif Generative AI dengan tema Galaxy Bima Sakti dan delapan planet Tata Surya.">
+  <meta name="theme-color" content="#080a18"><title>Generative AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Generative AI, beranda"><span class="brand-mark" aria-hidden="true">✦</span><span>Generative <b>AI</b><small>GALAXY LEARNING</small></span></a>
+    <button id="menuToggle" class="icon-button menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="mainNav" class="nav" aria-label="Navigasi utama"><a href="#home" data-nav="home">Beranda</a><a href="#modules" data-nav="modules">Modul</a><a href="#project" data-nav="project">Project Akhir</a><a href="#about" data-nav="about">Tentang</a><button id="themeToggle" class="theme-toggle" type="button" aria-label="Ganti tema">☀ Tema terang</button></nav>
+  </header>
+  <main id="main">
+    <section id="home" class="page-section hero-section">
+      <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-dot"></span> JELAJAHI MASA DEPAN PEMBELAJARAN</p><h1>Belajar <span>Generative AI</span><br>dimulai dari sini.</h1><p class="hero-description">Jelajahi cara menggunakan AI generatif untuk merancang media pembelajaran. Pelajari konsep, praktikkan, uji hasilnya, lalu tingkatkan dengan bertanggung jawab.</p><div class="hero-actions"><a class="button primary" href="#modules">Mulai Belajar <span aria-hidden="true">↗</span></a><a class="button secondary" href="#project">Lihat Project Akhir</a></div><div class="hero-stats"><div><strong>06</strong><span>Modul inti</span></div><div><strong>08</strong><span>Planet eksplorasi</span></div><div><strong id="heroProgress">0%</strong><span>Progres kamu</span></div></div></div>
+      <div class="solar-system" role="img" aria-label="Ilustrasi Tata Surya dengan delapan planet mengelilingi matahari"><div class="sun"><span>MATAHARI</span></div><div class="orbit orbit-1"><i class="planet mercury"></i></div><div class="orbit orbit-2"><i class="planet venus"></i></div><div class="orbit orbit-3"><i class="planet earth"></i></div><div class="orbit orbit-4"><i class="planet mars"></i></div><div class="orbit orbit-5"><i class="planet jupiter"></i></div><div class="orbit orbit-6"><i class="planet saturn"></i></div><div class="orbit orbit-7"><i class="planet uranus"></i></div><div class="orbit orbit-8"><i class="planet neptune"></i></div><span class="star star-a">✦</span><span class="star star-b">·</span><span class="star star-c">✧</span></div>
+      <div class="hero-note"><span class="note-icon">✧</span><span><b>Belajar dengan arah yang jelas</b><small>Materi · Praktik · Evaluasi · Perbaikan</small></span></div>
+    </section>
+    <section class="page-section journey-section"><div class="section-heading"><div><p class="eyebrow">PETA PERJALANAN</p><h2>Delapan planet, satu perjalanan belajar.</h2></div><p>Enam planet mewakili modul utama. Uranus dan Neptunus menjadi area eksplorasi tambahan dan project akhir.</p></div><div id="planetMap" class="planet-map"></div></section>
+    <section id="modules" class="page-section modules-section"><div class="section-heading"><div><p class="eyebrow">KURIKULUM GALAKSI</p><h2>Pilih modul perjalananmu.</h2></div><p>Ikuti urutannya atau cari topik yang kamu butuhkan.</p></div><div class="module-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="moduleSearch" type="search" placeholder="Cari materi atau kata kunci..." aria-label="Cari modul"></label><label class="filter-wrap"><span class="sr-only">Filter status</span><select id="statusFilter"><option value="all">Semua status</option><option value="not-started">Belum dimulai</option><option value="completed">Selesai</option></select></label><button id="resetProgress" class="text-button" type="button">Atur ulang progres</button></div><div class="progress-panel"><div class="progress-copy"><span>PROGRES PEMBELAJARAN</span><strong id="progressText">0 dari 6 modul selesai</strong></div><div class="progress-track"><span id="progressBar"></span></div></div><div id="moduleGrid" class="module-grid"></div><p id="emptyState" class="empty-state" hidden>Materi tidak ditemukan. Coba kata kunci lain atau hapus pencarian.</p></section>
+    <section id="lesson" class="page-section lesson-section" hidden><div id="lessonContent"></div></section>
+    <section id="project" class="page-section project-section"><div class="section-heading"><div><p class="eyebrow">MISI AKHIR</p><h2>Rancang media pembelajaranmu.</h2></div><p>Gunakan delapan komponen ini sebagai panduan agar produk memiliki tujuan, sasaran, dan proses yang jelas.</p></div><div class="project-layout"><div class="project-main"><div class="project-intro"><span class="project-symbol">◎</span><div><h3>Project akhir: Media pembelajaran berbantuan AI</h3><p>Buat satu produk media sederhana. Jelaskan bagian yang dibantu AI dan bagian yang kamu periksa atau perbaiki secara manual.</p></div></div><div id="projectChecklist" class="checklist"></div><div class="project-output"><h3>Ketentuan output</h3><ol><li>Kumpulkan satu produk media pembelajaran yang dapat dibuka atau didemonstrasikan.</li><li>Jelaskan tujuan belajar, target pengguna, bentuk media, dan cara menggunakannya.</li><li>Dokumentasikan proses penggunaan AI secara jujur.</li><li>Periksa fakta, bahasa, aksesibilitas, privasi, hak penggunaan aset, dan fungsi produk.</li></ol></div></div><aside class="rubric-card"><p class="eyebrow">RUBRIK PENILAIAN</p><h3>Bagaimana project dinilai?</h3><div class="rubric-row"><span>Kesesuaian tujuan</span><b>20%</b><div class="rubric-track"><i style="width:20%"></i></div></div><div class="rubric-row"><span>Kualitas isi</span><b>25%</b><div class="rubric-track"><i style="width:25%"></i></div></div><div class="rubric-row"><span>Pemanfaatan Generative AI</span><b>20%</b><div class="rubric-track"><i style="width:20%"></i></div></div><div class="rubric-row"><span>Kualitas media</span><b>20%</b><div class="rubric-track"><i style="width:20%"></i></div></div><div class="rubric-row"><span>Kreativitas dan relevansi</span><b>10%</b><div class="rubric-track"><i style="width:10%"></i></div></div><div class="rubric-row"><span>Penjelasan proses</span><b>5%</b><div class="rubric-track"><i style="width:5%"></i></div></div><div class="rubric-total"><span>Total bobot</span><strong>100%</strong></div><p class="rubric-footnote">Checklist tersimpan pada browser ini.</p></aside></div></section>
+    <section id="about" class="page-section about-section"><div class="about-card"><div class="about-orb">✧</div><div><p class="eyebrow">TENTANG MODUL</p><h2>AI membantu proses. Manusia tetap memeriksa.</h2><p>Website ini adalah modul pembelajaran interaktif untuk pelajar yang ingin memahami proses merancang media pembelajaran dengan Generative AI. Gunakan AI sebagai alat bantu, bukan sumber kebenaran yang tidak perlu diperiksa.</p><div class="principle-grid"><div><b>01 / Verifikasi</b><span>Periksa fakta dan kode sebelum digunakan.</span></div><div><b>02 / Privasi</b><span>Jangan masukkan data pribadi atau rahasia.</span></div><div><b>03 / Bias dan hak cipta</b><span>Tinjau potensi bias dan hak penggunaan aset.</span></div><div><b>04 / Pengawasan manusia</b><span>Keputusan akhir tetap menjadi tanggung jawab pembuat.</span></div></div></div></div></section>
+  </main>
+  <footer class="site-footer" id="siteFooter">
+    <div class="footer-glow" aria-hidden="true"></div>
+    <div class="footer-main">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="#home" aria-label="Generative AI, kembali ke beranda"><span class="brand-mark" aria-hidden="true">✦</span><span>Generative <b>AI</b><small>GALAXY LEARNING</small></span></a>
+        <p class="footer-description">Jelajahi semesta kecerdasan buatan. Kembangkan ide, ciptakan karya, dan periksa setiap hasil dengan bijak.</p>
+        <div class="footer-socials" aria-label="Media sosial">
+          <a class="social-link" href="https://instagram.com/wfrnika" target="_blank" rel="noopener noreferrer" aria-label="Instagram Maulidta Yuwanda Fronika"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="social-dot" cx="17.5" cy="6.8" r="1"></circle></svg></a>
+          <a class="social-link" href="mailto:maulidtayuwandafronika@gmail.com" aria-label="Kirim email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect><path d="m3.5 6 8.5 7 8.5-7"></path></svg></a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Navigasi footer">
+        <h2>Jelajahi</h2>
+        <a href="#home">Beranda</a><a href="#modules">Modul belajar</a><a href="#project">Project akhir</a><a href="#about">Tentang modul</a>
+      </nav>
+      <div class="footer-contact">
+        <h2>Pengembang</h2>
+        <p class="footer-name">Maulidta Yuwanda Fronika</p>
+        <a href="https://instagram.com/wfrnika" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">@</span> instagram.com/wfrnika</a>
+        <a href="mailto:maulidtayuwandafronika@gmail.com"><span aria-hidden="true">✉</span> maulidtayuwandafronika@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="currentYear"></span> Generative AI. Dibuat untuk belajar dan berkreasi.</p>
+      <span class="footer-version">Versi 1.0 · Progres disimpan lokal</span>
+      <button class="back-to-top" id="backToTop" type="button"><span aria-hidden="true">↑</span> Kembali ke atas</button>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="modules.js"></script><script src="app.js"></script>
+</body></html>
