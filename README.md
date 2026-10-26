@@ -2,12 +2,6 @@
 
 Website modul pembelajaran interaktif berbahasa Indonesia dengan tema Galaxy Bima Sakti dan delapan planet Tata Surya. Dibuat menggunakan HTML5, CSS3, dan JavaScript vanilla sesuai PRD.
 
-## Cara menjalankan
-1. Ekstrak folder `Generative_AI.zip`.
-2. Buka `index.html` dengan browser modern seperti Chrome, Edge, Firefox, atau Safari.
-3. Untuk pengalaman lokal yang lebih konsisten, jalankan server statis dari folder ini, misalnya `python -m http.server 8000`, lalu buka `http://localhost:8000`.
-
-Tidak memerlukan instalasi paket, backend, database, atau API key. Google Fonts digunakan sebagai peningkatan tampilan opsional; bila internet tidak tersedia, website tetap menggunakan font cadangan.
 
 ## Fitur
 - Beranda bertema galaksi dan peta visual delapan planet.
