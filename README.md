@@ -15,10 +15,9 @@ Website modul pembelajaran interaktif berbahasa Indonesia dengan tema Galaxy Bim
 
 ## Struktur
 - `index.html` : struktur halaman
-- `css/styles.css` : gaya visual, tema, dan responsivitas
-- `js/modules.js` : data enam modul dan kuis
-- `js/app.js` : navigasi, pencarian, kuis, tema, serta progres lokal
-- `assets/images/` : direktori aset lokal (ilustrasi Tata Surya dibuat dengan CSS)
+- `styles.css` : gaya visual, tema, dan responsivitas
+- `modules.js` : data enam modul dan kuis
+- `app.js` : navigasi, pencarian, kuis, tema, serta progres lokal
 
 ## Batasan
 - Tidak ada login, backend, sinkronisasi antarperangkat, atau panggilan API model AI.
